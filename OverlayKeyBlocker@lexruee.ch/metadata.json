@@ -1,0 +1,6 @@
+{
+    "uuid": "OverlayKeyBlocker@lexruee.ch", 
+    "name": "OverlayKeyBlocker", 
+    "shell-version": ["3.22"], 
+    "description": "Deactivates the overlay key."
+}
