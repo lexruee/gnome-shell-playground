@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="prefs-example">
+  <schema path="/org/gnome/shell/extensions/prefs-example/" id="org.gnome.shell.extensions.prefs-example">
+
+    <key type="b" name="disable-suspend-button">
+      <default>false</default>
+      <summary>Disable suspend button</summary>
+      <description>Disable suspend button.</description>
+    </key>
+  </schema>
+</schemalist>
