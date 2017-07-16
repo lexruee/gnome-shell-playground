@@ -35,7 +35,10 @@ const MyPreferencesWidget= new GObject.Class({
             xalign: 0,
             hexpand: true
         });
-        let switchSuspendButton = new Gtk.Switch({ halign: Gtk.Align.END });
+        let switchSuspendButton = new Gtk.Switch({
+            halign: Gtk.Align.END,
+            active: this.settings.get_boolean('disable-suspend-button')
+        });
         switchSuspendButton.connect('notify::active', Lang.bind(this, function(check) {
             let boolean_value = check.get_active();
             this.settings.set_boolean('disable-suspend-button', boolean_value);
