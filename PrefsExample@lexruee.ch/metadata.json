@@ -1,0 +1,8 @@
+{
+    "uuid": "PrefsExample@lexruee.ch",
+    "name": "PrefsExample",
+    "shell-version": [ "3.14", "3.16", "3.18", "3.20", "3.22", "3.24" ],
+    "description": "A basic prefs example.",
+    "settings-schema": "org.gnome.shell.extensions.prefs-example",
+    "gettext-domain": "prefs-example"
+}
