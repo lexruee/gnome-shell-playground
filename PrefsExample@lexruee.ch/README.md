@@ -1,6 +1,5 @@
 # PrefsExample
- This is a simple gnome shell extension that shows how
- the a simple prefjs widget is created.
+ This is a simple gnome shell extension that shows how we can create a basic prefjs widget.
 
  1) Clone the repo:
  ```
@@ -21,7 +20,7 @@
 
  4) Restart gnome-shell
 
-```
+ ```
  Alt + F2 and enter 'r' (without quotes).
  ```
 
