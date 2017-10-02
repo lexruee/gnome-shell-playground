@@ -1,0 +1,6 @@
+{
+    "description": "Binds the Super Key to panel-main-menu.", 
+    "uuid": "MenuKeybinder@lexruee.ch", 
+    "shell-version": ["3.22"], 
+    "name": "MenuKeybinder"
+    }

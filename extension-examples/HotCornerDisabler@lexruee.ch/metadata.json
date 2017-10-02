@@ -1,6 +1,6 @@
 {
-    "uuid": "HotconerDisabler@lexruee.ch", 
-    "name": "HotconerDisabler", 
+    "uuid": "HotCornerDisabler@lexruee.ch", 
+    "name": "HotCornerDisabler", 
     "shell-version": ["3.22"], 
     "description": "Disables the gnome-shell hotcorner."
 }

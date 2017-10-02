@@ -2,7 +2,7 @@ JS=*.js
 MD=*.md
 JSON=*.json
 TXT=COPYING
-DEST=~/.local/share/gnome-shell/extensions/HotconerDisabler@lexruee.ch
+DEST=~/.local/share/gnome-shell/extensions/HotCornerDisabler@lexruee.ch
 
 
 install:

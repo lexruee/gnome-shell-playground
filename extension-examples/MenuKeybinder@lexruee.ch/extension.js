@@ -1,6 +1,6 @@
 /*
- * HotcornerDisabler - A working demo for disabling and enabling
- * the gnome-shell hotconer.
+ * MenuKeybinder - A working demo that shows how the panel-main-menu
+ * can be bound to the super key.
  *
  * Copyright (C) 2017 lexruee. 
  *
@@ -23,20 +23,18 @@ const Gio = imports.gi.Gio;
 const Me = imports.misc.extensionUtils.getCurrentExtension();
 const Helper = Me.imports.helper;
 
-let hotcornerManager;
+const SUPER_L = 'Super_L';
+
+// Initialize variables
+let menuKeybinder;
 
 function init() {
-    
 }
 
 function enable() {
-    hotcornerManager = new Helper.HotcornerManager();
-    hotcornerManager.disableHotcorners();
+    new Helper.MenuKeybinder(SUPER_L).enable();
 }
 
 function disable() {
-    hotcornerManager.enableHotcorners();
-    hotcornerManager.destroy();
-    hotcornerManager = null;
+    new Helper.MenuKeybinder(SUPER_L).disable();
 }
-

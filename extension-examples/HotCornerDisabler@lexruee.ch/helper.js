@@ -24,8 +24,8 @@ const Gio = imports.gi.Gio;
 const Main = imports.ui.main;
 
 
-const HotcornerManager = new Lang.Class({
-    Name: 'HotcornerManager',
+const HotCornerManager = new Lang.Class({
+    Name: 'ArcMenu.HotCornerManager',
     
     _init: function() {
         this._id = null;
@@ -33,6 +33,7 @@ const HotcornerManager = new Lang.Class({
     
     disableHotcorners: function() {
         let hotCorners = Main.layoutManager.hotCorners;
+        // monkey patch each hot corner
         hotCorners.forEach(function(corner) {
             if(corner) {
                 corner._toggleOverview = function() {};
